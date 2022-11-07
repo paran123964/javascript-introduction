@@ -1,16 +1,18 @@
-let age =32;
-let userName = 'Paran';
-let hobbies = ['Sports', 'Watching', 'Reading'];
+let age = 32;
+let userName = "max";
+let hobbies = ['Sports', 'Reading', 'Searching'];
 let job = {
-title: 'Developer',
-place: 'New York',
-salary: 50000,
+  title: 'Developer',
+  place: 'New York',
+  salary: 50000,
 };
 
 let totalAdultYears;
 
 function calculateAdultYears(userAge) {
-    return age - 18;
+  let result;
+  result = userAge - 18;
+  return result;
 }
 
 totalAdultYears = calculateAdultYears(age);
@@ -18,5 +20,5 @@ alert(totalAdultYears);
 
 age = 45;
 totalAdultYears = calculateAdultYears(age);
-alert(totalAdultYears);
 
+alert(totalAdultYears);
